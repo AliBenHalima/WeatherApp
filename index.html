@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  href="stylesheet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container_div">
+  <div class="container1">
+    <div class="app_title">
+      <p> weather</p>
+    </div>
+    <div class="notification"> 
+      <p></p>    
+    </div>
+
+    <div class="weatherContainer">
+      <div class="Image">
+        <img src="dist/icons/white/png/128x128/unknown.png" alt="no image found">
+      </div>
+      <div class="Tempurature  ">
+      <p>- °<span>  C</span></p>  
+      </div>
+      <div class="temDiscription">
+        <p>-</p>
+      </div>
+      <div class="location">
+        <p>-</p>
+      </div>
+      <!-- <div class="input-group">
+        <button type="button" class="btn btn-primary"></button>
+        <input type="text" class="form-control w-25">
+      </div> -->
+      <div class="container">
+      <div class="row ">
+        <div class="col-md-6 btnn ">
+        
+          <button class="btn btn-outline-light w-100" id="DynamicLocation"type="button"> Check weather</button>
+        </div>
+          <div class="col-md-6 btnn">
+        <input type="text" class="form-control w-100" id="inputLocation" onfocus="this.value=''" placeholder="Select a location" aria-label="" aria-describedby="basic-addon1">
+      </div>
+    </div>
+      <div class="text-center mt-2">
+        <button class="btn btn-outline-light" id="currentLocation" type="button"> Get Current Location weather</button>
+  
+  </div>
+    </div>
+  </div>
+
+
+
+  </div>
+</div>
+<script src="app.js">
+  
+</script>
+
+</body>
+</html>
