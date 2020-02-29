@@ -50,8 +50,11 @@ body {
 	grid-column: 2/3;
     grid-row: 1/2;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.city-container h2{
+	display:none;
 }
 
 .weather-container {
@@ -61,7 +64,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: left;
 }
 .search-form-container {
@@ -74,14 +77,15 @@ body {
 	display: flex;
 	justify-content: flex-start;
 }
-.search-form-container > input {
+.search-form-container > select { /*here change input by select*/
 	height: 100%;
 	border: none;
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
-
+	
+background-color: #1c1c1c;
 	flex-grow: 15;
 
 	background: transparent;
@@ -102,4 +106,13 @@ body {
 .search-form-container > button:hover {
 	background: #1c1c1c;
 	border: 1px dashed #678fff;
+}
+#button-container {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	background: transparent;
+}
+#button-container >button {
+
 }
