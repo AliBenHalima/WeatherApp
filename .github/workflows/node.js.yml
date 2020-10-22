@@ -9,6 +9,8 @@ on:
     
 
 jobs:
+  my_first_job:
+    name: My first job
   build:
 
     runs-on: ubuntu-latest
