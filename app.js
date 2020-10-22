@@ -1,7 +1,7 @@
 
 // var latitude;
 // var longitude ;
-var data;
+v ar data;
 var weather ={
     lat:0,
     lon:0,
@@ -9,7 +9,7 @@ var weather ={
     temp:0,
     descp:"",
     iconId:0,
-    main:""
+    main:"" 
 } 
 const weatherNavigator = document.querySelector(".notification");
 const image= document.querySelector('.Image');
