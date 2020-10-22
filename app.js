@@ -2,7 +2,7 @@
 // var latitude;
 // var longitude ;
 var data;
-varr weather ={
+varrr weather ={
     lat:0,
     lon:0,
     place:"",
