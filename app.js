@@ -9,7 +9,7 @@ var weather ={
     temp:0,
     descp:"",
     iconId:0,
-    main:""
+    main:"" 
 } 
 const weatherNavigator = document.querySelector(".notification");
 const image= document.querySelector('.Image');
